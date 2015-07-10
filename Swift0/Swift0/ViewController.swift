@@ -38,7 +38,7 @@ class ViewController: UIViewController ,MFMessageComposeViewControllerDelegate{
         
 //        let intValue:Int = 98
 //        let sheepCount:Double = intValue as Double
-        let sheepCount = 71/2.0 as Int
+//        let sheepCount = 71/2.0 as Int
 //        let sheepCount = Int(71/2.0)
         
       
@@ -70,39 +70,39 @@ class ViewController: UIViewController ,MFMessageComposeViewControllerDelegate{
         
         
         
-//        var things = [Any]()
-//        
-//        things.append(0)
-//        things.append(0.0)
-//        things.append(42)
-//        things.append(3.14159)
-//        things.append("hello")
-//        things.append((3.0, 5.0))
-//     
-//        
-//        
-//        for thing in things {
-//            switch thing {
-//            case 0 as Int:
-//                println("zero as an Int")
-//            case 0 as Double:
-//                println("zero as a Double")
-//            case let someInt as Int:
-//                println("an integer value of \(someInt)")
-//            case let someDouble as Double where someDouble > 0:
-//                println("a positive double value of \(someDouble)")
-//            case is Double:
-//                println("some other double value that I don't want to print")
-//            case let someString as String:
-//                println("a string value of \"\(someString)\"")
-//            case let (x, y) as (Double, Double):
-//                println("an (x, y) point at \(x), \(y)")
-////            case let movie as Movie:  
-////                println("a movie called '\(movie.name)', dir. \(movie.director)")  
-//            default:
-//                println("something else")  
-//            }  
-//        }
+        var things = [Any]()
+        
+        things.append(0)
+        things.append(0.0)
+        things.append(42)
+        things.append(3.14159)
+        things.append("hello")
+        things.append((3.0, 5.0))
+     
+        
+        
+        for thing in things {
+            switch thing {
+            case 0 as Int:
+                println("zero as an Int")
+            case 0 as Double:
+                println("zero as a Double")
+            case let someInt as Int:
+                println("an integer value of \(someInt)")
+            case let someDouble as Double where someDouble > 0:
+                println("a positive double value of \(someDouble)")
+            case is Double:
+                println("some other double value that I don't want to print")
+            case let someString as String:
+                println("a string value of \"\(someString)\"")
+            case let (x, y) as (Double, Double):
+                println("an (x, y) point at \(x), \(y)")
+//            case let movie as Movie:  
+//                println("a movie called '\(movie.name)', dir. \(movie.director)")  
+            default:
+                println("something else")  
+            }  
+        }
         
         
     }
