@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>95432790-95E9-4F7C-90FE-18AEE3E12C65</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Swift0</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>CCD6986E50E0C909FFC24127A8FA4A2CAD829D22</key>
 		<string>github.com:wangxinIOS/learngit.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Swift0/Swift0.xcodeproj</string>
+	<string>Swift0/Swift0.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>CCD6986E50E0C909FFC24127A8FA4A2CAD829D22</key>
